@@ -7,7 +7,7 @@ const app = new cdk.App();
 new CdkPathFolderFilterPipelineStack(app, 'CdkPathFolderFilterPipelineStack', {
   env: {
     account : '284659254350' ,
-    region : 'us-east-1',
+    region : 'us-east-2',
   }
 });
 app.synth()
